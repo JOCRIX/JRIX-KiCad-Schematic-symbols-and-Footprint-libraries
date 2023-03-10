@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CA-301
+D Crystals 16MHz 22PF 30ppm -20C +70C
+$ENDCMP
+#
+#End Doc Library

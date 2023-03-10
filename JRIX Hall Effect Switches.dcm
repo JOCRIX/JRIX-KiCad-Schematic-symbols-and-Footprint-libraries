@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS460S
+D High Sensitivity Latching Digital Hall-effect Sensor IC
+K Hall-effect latching switch
+F https://www.mouser.dk/datasheet/2/187/honeywell-sensing-latching-digital-hall-effect-sen-1846237.pdf
+$ENDCMP
+#
+#End Doc Library

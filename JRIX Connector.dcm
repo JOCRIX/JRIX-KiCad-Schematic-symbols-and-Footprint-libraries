@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2X7_VRT_HDR
+D Headers & Wire Housings 14P 2X7 VRT HDR
+$ENDCMP
+#
+$CMP Molex_MicroFit3.0_10P_Header
+D Mouser No: 538-43045-1027 - Mfr. No: 43045-1027 --- Passer til --- Mouser No: 538-43025-1010  - Mfr. No: 43025-1010
+$ENDCMP
+#
+$CMP Molex_MicroFit3.0_2P_Header
+D Mouser No: 538-43045-0214 - Mfr. No: 43045-0214 --- Passer til --- Mouser No: 538-43025-0210 - Mfr. No: 43025-0210
+$ENDCMP
+#
+$CMP Molex_MicroFit3.0_3P_Header
+D Mouser No: 538-43650-0328 - Mfr. No: 43650-0328 --- Passer til --- Mouser No: 538-43645-0300 - Mfr. No: 43645-0300
+$ENDCMP
+#
+$CMP Molex_MicroFit3.0_5P_Header
+D Mouser No: 538-43650-0527 - Mfr. No: 43650-0527 --- Passer til --- Mouser No: 538-43645-0500 - Mfr. No: 43645-0500
+$ENDCMP
+#
+#End Doc Library

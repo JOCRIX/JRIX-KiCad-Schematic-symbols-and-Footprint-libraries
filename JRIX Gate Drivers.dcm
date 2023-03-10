@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8343-Q1
+D Motor/Motion/Ignition Controllers & Drivers Automotive 60-V three-phase smart gate driver 48-HTQFP -40 to 125
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http://www.ti.com/lit/ds/symlink/drv8343-q1.pdf
+$ENDCMP
+#
+#End Doc Library

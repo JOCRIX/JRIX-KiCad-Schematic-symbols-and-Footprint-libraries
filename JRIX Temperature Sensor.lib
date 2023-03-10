@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MCP9701-E_TO
+#
+DEF MCP9701-E_TO U 0 40 Y Y 1 F N
+F0 "U" -450 0 50 V V C CNN
+F1 "MCP9701-E_TO" -350 0 50 V V C CNN
+F2 "" -750 350 50 H I C CNN
+F3 "https://www.mouser.dk/datasheet/2/268/20001942F-461622.pdf" -350 -50 50 V I C CNN
+F4 "https://www.mouser.dk/ProductDetail/Microchip-Technology/MCP9701-E-TO?qs=sGAEpiMZZMucenltShoSnjkfRJmEyKRQ3F1LyhIi%252Bro%3D" -350 100 50 V I C CNN "Mouser link"
+DRAW
+A -175 125 25 1 1799 1 1 10 N -150 125 -200 125
+C -175 -100 50 1 1 10 F
+S -300 200 300 -200 1 1 10 f
+S -150 -75 -200 0 1 1 10 F
+P 2 1 1 10 -200 25 -175 25 N
+P 2 1 1 10 -200 50 -175 50 N
+P 2 1 1 10 -200 75 -175 75 N
+P 2 1 1 10 -200 100 -175 100 N
+P 2 1 1 10 -200 125 -200 0 N
+P 2 1 1 10 -200 125 -175 125 N
+P 2 1 1 10 -150 125 -150 0 N
+X Vdd 1 0 300 100 D 50 50 1 1 W
+X Vout 2 400 0 100 L 50 50 1 1 O
+X GND 3 0 -300 100 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

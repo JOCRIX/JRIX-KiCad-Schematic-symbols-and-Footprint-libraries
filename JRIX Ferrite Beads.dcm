@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7427502
+D Ferrite Beads WE-UKW 6-Hole 25MHz 670ohm
+$ENDCMP
+#
+$CMP B-01-A
+D Ferrite Beads 5A Bead Lead DCR=2Ohms
+$ENDCMP
+#
+#End Doc Library

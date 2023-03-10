@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# S20K385E3K1
+#
+DEF ~S20K385E3K1 VDR 0 40 Y Y 1 F N
+F0 "VDR" 0 250 50 H V C CNN
+F1 "S20K385E3K1" 0 -450 50 H I C CNN
+F2 "" -500 150 50 H I C CNN
+F3 "https://www.mouser.dk/datasheet/2/400/SIOV_Leaded_SuperioR_MP_S20-1624212.pdf" 0 -150 50 H I C CNN
+F4 "EPCOS / TDK" 50 -250 50 H I C CNN "Manufacturer"
+F5 "B72220P3381K101" 0 -350 50 H I C CNN "Manufacturer Number"
+F6 "385 VAC" 0 150 50 H V C CNN "Voltage Rating AC"
+F7 "505 VDC" 0 -550 50 H I C CNN "Voltage Rating DC"
+F8 "12 kA" 0 -650 50 H I C CNN "Peak Surge Current"
+F9 "620V" 0 -750 50 H I C CNN "Varistor Voltage "
+DRAW
+T 900 80 -70 50 0 1 0 U Normal 0 C C
+S 100 -40 -100 40 1 1 10 N
+P 3 1 1 0 -100 -75 -50 -75 50 75 N
+X ~ 1 -150 0 50 R 50 50 1 1 P
+X ~ 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

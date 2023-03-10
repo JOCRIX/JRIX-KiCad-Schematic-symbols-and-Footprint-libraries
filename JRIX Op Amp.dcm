@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1358
+D Op Amps Dual 2mA 25MHz 600V/uSec OA
+$ENDCMP
+#
+$CMP LT1494
+D 1.5µA Max, Single, Dual and Quad Over-The-Top Precision Rail-to-Rail Input and Output Op Amps - SO8 Package
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EM3000XS
+D Gas Discharge Tubes - GDTs / Gas Plasma Arrestors EM3000XS
+K spark gap ESD electrostatic suppression
+F ~
+$ENDCMP
+#
+#End Doc Library

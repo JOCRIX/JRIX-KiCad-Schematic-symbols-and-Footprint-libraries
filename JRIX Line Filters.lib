@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 091.01501.00
+#
+DEF 091.01501.00 EM 0 40 Y Y 1 F N
+F0 "EM" 350 150 50 H V C CNN
+F1 "091.01501.00" 350 50 50 H V C CNN
+F2 "" -550 150 50 H I C CNN
+F3 "" -550 150 50 H I C CNN
+F4 "Astrodyne TDI" 450 250 50 H I C CNN "Manufacturer"
+F5 "Chassis Mount, Feston Termination" 550 350 50 H I C CNN "Mounting Style"
+DRAW
+S 0 0 750 -400 0 1 0 f
+X L 1 -100 -100 100 R 50 50 1 1 W
+X PE 2 -100 -200 100 R 50 50 1 1 W
+X N 3 -100 -300 100 R 50 50 1 1 W
+X L_Filtered 4 850 -100 100 L 50 50 1 1 w
+X N_Filtered 6 850 -300 100 L 50 50 1 1 w
+X PE_Filtered ~ 850 -200 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library
