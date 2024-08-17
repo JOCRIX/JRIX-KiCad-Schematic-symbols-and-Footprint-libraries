@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT363"
+		(property "Footprint" ""
 			(at 4.826 2.794 0)
 			(effects
 				(font
@@ -417,7 +417,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT363"
+		(property "Footprint" ""
 			(at 4.826 2.794 0)
 			(effects
 				(font
