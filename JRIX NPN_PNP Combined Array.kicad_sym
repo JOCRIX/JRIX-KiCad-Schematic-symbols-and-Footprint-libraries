@@ -14,8 +14,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at -9.906 14.732 0)
+		(property "Value" "CA3096"
+			(at 6.35 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN/PNP Transistor Arrays"
+		(property "Description" "NPN/PNP Transistor Arrays DIP14"
 			(at -1.778 0.254 0)
 			(effects
 				(font
@@ -57,7 +57,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "NPN/PNP Transistor Arrays"
+		(property "ki_keywords" "NPN/PNP Transistor Arrays DIP14"
 			(at 0 0 0)
 			(effects
 				(font
