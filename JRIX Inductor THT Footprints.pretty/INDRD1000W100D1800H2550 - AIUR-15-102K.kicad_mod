@@ -1,0 +1,129 @@
+(footprint "INDRD1000W100D1800H2550 - AIUR-15-102K"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AIUR-15-102K")
+	(tags "AIUR-15-102K")
+	(property "Reference" "REF**"
+		(at -0.635 -10.085 0)
+		(layer "F.SilkS")
+		(uuid "78b23f8f-bdb8-4790-8599-370f2969d205")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INDRD1000W100D1800H2550"
+		(at 10.795 10.005 0)
+		(layer "F.Fab")
+		(uuid "93cc0a4a-c778-47d3-823b-078c4aeddd3a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d317ee6c-cf0c-49a9-83ab-2fa7b5c6498f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "db26cd2d-4c3e-415c-8476-d437cdfad540")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82880e01-2fcf-42c0-8ebe-bd251cf38ab5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 9 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "17f31d1d-ebaf-43d5-a706-afe8d6e900cd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3bcac546-735d-418f-a64b-08dfabd12042")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 9 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "80adb09a-7bec-4742-a67d-15ae78f54c4a")
+	)
+	(pad "1" thru_hole circle
+		(at -5 0)
+		(size 1.55 1.55)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "5195ba60-e457-4712-a07d-b865c969fb8c")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 1.55 1.55)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "fd4b7cef-76a1-4b58-a467-404ba4718e70")
+	)
+	(model "F:/Git Projects/JRIX-KiCad-Schematic-symbols-and-Footprint-libraries/JRIX Inductor THT 3D Models/AIUR-15-102K.step"
+		(offset
+			(xyz 0 0 20)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)

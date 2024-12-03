@@ -205,6 +205,42 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -22.86 33.02 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -22.86 30.48 0)
+				(length 5.08) hide
+				(name "PF7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at 22.86 20.32 180)
 				(length 5.08)
@@ -468,6 +504,24 @@
 					)
 				)
 				(number "CN7_25"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -22.86 38.1 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_26"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -799,6 +853,24 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -22.86 35.56 0)
+				(length 5.08) hide
+				(name "PF6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN7_9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
 		(symbol "NUCLEO-F446RE_2_0"
 			(rectangle
@@ -823,6 +895,24 @@
 					)
 				)
 				(number "CN10_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 33.02 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -949,6 +1039,24 @@
 					)
 				)
 				(number "CN10_17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 30.48 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_18"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1298,6 +1406,24 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at 17.78 11.43 180)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_36"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin bidirectional line
 				(at -17.78 25.4 0)
 				(length 5.08)
@@ -1309,6 +1435,24 @@
 					)
 				)
 				(number "CN10_37"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 35.56 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN10_38"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1427,14 +1571,32 @@
 		)
 		(symbol "NUCLEO-F446RE_3_0"
 			(rectangle
-				(start -15.24 -12.7)
-				(end 15.24 10.16)
+				(start -15.24 10.16)
+				(end 15.24 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin no_connect line
+				(at -20.32 -8.89 0)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "CN6_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
 				)
 			)
 			(pin bidirectional line
