@@ -980,7 +980,7 @@
 			)
 		)
 		(property "Description" "Cologne Chip GateMate FPGA, BGA-324"
-			(at 0 0 0)
+			(at -1.524 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
