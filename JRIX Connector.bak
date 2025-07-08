@@ -495,7 +495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Headers & Wire Housings .100\" Shrouded IDC Ejector Header, Shrouded, 2 Row, 2.54mm row spacing, 2.54mm pitch, 40 positions, straight pins"
+		(property "Description" "Headers & Wire Housings .100\" Shrouded IDC Ejector Header, 2 Row, 2.54mm row spacing, 2.54mm pitch, 40 positions, straight pins"
 			(at 0 0 0)
 			(effects
 				(font

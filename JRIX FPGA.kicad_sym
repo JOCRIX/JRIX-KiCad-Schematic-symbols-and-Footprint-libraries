@@ -944,7 +944,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 8.89 0)
+			(at -17.78 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +953,7 @@
 			)
 		)
 		(property "Value" "CCGM1A1"
-			(at 11.43 8.89 0)
+			(at 6.35 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +962,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm"
-			(at -5.08 16.51 0)
+			(at -10.16 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +971,7 @@
 			)
 		)
 		(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf"
-			(at 0 7.62 0)
+			(at -5.08 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +980,7 @@
 			)
 		)
 		(property "Description" "Cologne Chip GateMate FPGA, BGA-324"
-			(at -1.524 11.176 0)
+			(at -6.604 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,8 +1127,8 @@
 		)
 		(symbol "CCGM1A1_2_1"
 			(rectangle
-				(start 24.13 21.59)
-				(end -24.13 -21.59)
+				(start -29.21 21.59)
+				(end 27.94 -21.59)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1138,7 +1138,7 @@
 				)
 			)
 			(text "CONFIGURATION"
-				(at -11.43 6.35 0)
+				(at -16.51 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 17.78 0)
+				(at -33.02 17.78 0)
 				(length 3.81)
 				(name "CFG_MD0/IO_WA_A0"
 					(effects
@@ -1164,7 +1164,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 15.24 0)
+				(at -33.02 15.24 0)
 				(length 3.81)
 				(name "CFG_MD1/IO_WA_B0"
 					(effects
@@ -1182,7 +1182,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 12.7 0)
+				(at -33.02 12.7 0)
 				(length 3.81)
 				(name "CFG_MD2/IO_WA_A1"
 					(effects
@@ -1200,7 +1200,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 10.16 0)
+				(at -33.02 10.16 0)
 				(length 3.81)
 				(name "CFG_MD3/IO_WA_B1"
 					(effects
@@ -1218,7 +1218,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 2.54 0)
+				(at -33.02 2.54 0)
 				(length 3.81)
 				(name "JTAG_TCK/IO_WA_A5"
 					(effects
@@ -1236,7 +1236,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 0 0)
+				(at -33.02 0 0)
 				(length 3.81)
 				(name "JTAG_TMS/IO_WA_B4"
 					(effects
@@ -1254,7 +1254,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 -2.54 0)
+				(at -33.02 -2.54 0)
 				(length 3.81)
 				(name "JTAG_TDI/IO_WA_A4"
 					(effects
@@ -1272,7 +1272,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 -5.08 0)
+				(at -33.02 -5.08 0)
 				(length 3.81)
 				(name "JTAG_TDO/IO_WA_B3"
 					(effects
@@ -1290,7 +1290,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -27.94 -12.7 0)
+				(at -33.02 -12.7 0)
 				(length 3.81)
 				(name "POR_EN/IO_WA_A3"
 					(effects
@@ -1308,7 +1308,25 @@
 				)
 			)
 			(pin power_in line
-				(at 0 25.4 270)
+				(at -6.35 25.4 270)
+				(length 3.81)
+				(name "VDD_WA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 25.4 270)
 				(length 3.81)
 				(name "VDD_WA"
 					(effects
@@ -1325,10 +1343,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 25.4 270)
+			(pin power_in line
+				(at -1.27 25.4 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_WA"
 					(effects
 						(font
@@ -1344,10 +1361,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 25.4 270)
+			(pin power_in line
+				(at 1.27 25.4 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_WA"
 					(effects
 						(font
@@ -1363,10 +1379,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 25.4 270)
+			(pin power_in line
+				(at 3.81 25.4 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_WA"
 					(effects
 						(font
@@ -1382,27 +1397,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 25.4 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_WA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "U3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 27.94 17.78 180)
+				(at 31.75 17.78 180)
 				(length 3.81)
 				(name "IO_WA_A2/~{CFG_FAILED}"
 					(effects
@@ -1420,7 +1416,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 15.24 180)
+				(at 31.75 15.24 180)
 				(length 3.81)
 				(name "IO_WA_B2/CFG_DONE"
 					(effects
@@ -1438,7 +1434,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 7.62 180)
+				(at 31.75 7.62 180)
 				(length 3.81)
 				(name "IO_WA_B7/SPI_D0"
 					(effects
@@ -1456,7 +1452,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 5.08 180)
+				(at 31.75 5.08 180)
 				(length 3.81)
 				(name "IO_WA_A7/SPI_D1"
 					(effects
@@ -1474,7 +1470,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 2.54 180)
+				(at 31.75 2.54 180)
 				(length 3.81)
 				(name "IO_WA_B6/SPI_D2"
 					(effects
@@ -1492,7 +1488,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 0 180)
+				(at 31.75 0 180)
 				(length 3.81)
 				(name "IO_WA_A6/SPI_D3"
 					(effects
@@ -1510,7 +1506,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -7.62 180)
+				(at 31.75 -7.62 180)
 				(length 3.81)
 				(name "IO_WA_A8/~{SPI_CS}"
 					(effects
@@ -1528,7 +1524,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -10.16 180)
+				(at 31.75 -10.16 180)
 				(length 3.81)
 				(name "IO_WA_B8/SPI_CLK"
 					(effects
@@ -1546,7 +1542,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 27.94 -15.24 180)
+				(at 31.75 -15.24 180)
 				(length 3.81)
 				(name "IO_WA_B5/SPI_FWD"
 					(effects
