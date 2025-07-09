@@ -1051,7 +1051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JRIX UDFN Footprints:20-UFDFN_4x2x0.5"
+		(property "Footprint" ""
 			(at -31.75 16.51 0)
 			(effects
 				(font
