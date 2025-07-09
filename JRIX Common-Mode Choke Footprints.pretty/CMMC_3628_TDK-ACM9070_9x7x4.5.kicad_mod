@@ -514,13 +514,13 @@
 	)
 	(model "kicad-embed://ACM9070-701-2PL-TL01.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 8.8 -5.95 -7.38)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 90)
 		)
 	)
 )
