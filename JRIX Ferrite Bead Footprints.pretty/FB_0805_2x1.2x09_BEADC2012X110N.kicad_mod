@@ -1,0 +1,181 @@
+(footprint "FB_0805_2x1.2x09_BEADC2012X110N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "L = 2mm W = 1.2mm H = 0.9mm - WE 742792030")
+	(tags "Ferrite Bead")
+	(property "Reference" "FB**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "299d1d6d-3326-4440-ae0e-cf42a1bc8589")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FB_0805_2x1.2x09_BEADC2012X110N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "405c3f06-eb2a-4b46-a9d3-d262c54a568b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ad11114-f670-43c6-9c9c-4d967ef1d2e0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4653bcba-0cfe-49e4-8605-6cb7974364ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d92dcd42-2b2b-4ce9-bc6f-94b6f529ff2d")
+	)
+	(fp_line
+		(start -1.7 -0.95)
+		(end 1.7 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89162546-1c29-4523-870a-4d5ff5b1977a")
+	)
+	(fp_line
+		(start -1.7 0.95)
+		(end -1.7 -0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "de272674-96ee-484d-99e2-69efcaebecbd")
+	)
+	(fp_line
+		(start 1.7 -0.95)
+		(end 1.7 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f802193-efc6-47ef-86c5-0e5f59893ceb")
+	)
+	(fp_line
+		(start 1.7 0.95)
+		(end -1.7 0.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4179c6af-b6af-4189-9793-aacbb8e700ef")
+	)
+	(fp_line
+		(start -1 -0.6)
+		(end 1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29afaaca-6779-429d-9463-979af4c0a156")
+	)
+	(fp_line
+		(start -1 0.6)
+		(end -1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc787073-d27c-461e-bceb-9680a5185357")
+	)
+	(fp_line
+		(start 1 -0.6)
+		(end 1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f86f7ead-17c5-4f5d-a579-bf302cfaaf31")
+	)
+	(fp_line
+		(start 1 0.6)
+		(end -1 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0df0244f-3bca-4233-88eb-a3a64aa55215")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "d9d77606-f9c6-48f4-b85e-33a833a9dd93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.85 0)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "eadcb2a9-37de-43c0-885c-3d7da6912315")
+	)
+	(pad "2" smd rect
+		(at 0.85 0)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7fa665c7-4151-4e68-8c41-cadea1691a8d")
+	)
+	(embedded_fonts no)
+	(model "F:/Git_Projects/JRIX-KiCad-Schematic-symbols-and-Footprint-libraries/JRIX Ferrite Beat 3D Models/FB_0805_2x1.2x0.9_742792030.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JRIX Common-Mode Choke Footprints:CMMC_3628_TDK-ACM9070_9x7x4.5"
 			(at 0 0 0)
 			(effects
 				(font

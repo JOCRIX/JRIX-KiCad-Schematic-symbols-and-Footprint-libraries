@@ -1,0 +1,191 @@
+(footprint "MLCC_SMD_0704_1.8x1x0.6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "L = 1.8mm W = 1mm H = 0.6mm")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at -0.025 -1.55 0)
+		(layer "F.SilkS")
+		(uuid "5ad4504f-72c4-4f22-a096-e60a4980c6dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "MLCC_SMD_0704_1.8x1x0.6"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4ed73434-689d-41f9-a535-83d211f8c3f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc09449d-1d79-4ece-bfdc-dda3f17a7fa9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bb11528-6c0a-44cb-a7a4-77868cc7afc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.4 0.6)
+		(end 0.4 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ecc2ade-f6e9-4f0b-9444-6d48430fb29d")
+	)
+	(fp_line
+		(start -0.375 -0.625)
+		(end 0.425 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45e58c3b-5410-4e35-ac68-da70153250ee")
+	)
+	(fp_line
+		(start -1.225 -0.625)
+		(end 1.225 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a24ca522-0a5c-4afd-b2ec-c857550c339f")
+	)
+	(fp_line
+		(start -1.225 0.6)
+		(end -1.225 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3afee8d-64c2-4c6d-8298-c36ff84b79bd")
+	)
+	(fp_line
+		(start 1.225 -0.625)
+		(end 1.225 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dcf41735-291f-47e7-8be3-48692a8024c1")
+	)
+	(fp_line
+		(start 1.225 0.6)
+		(end -1.225 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "451938b7-bd49-4ae6-bb26-e0d102ac9495")
+	)
+	(fp_line
+		(start -0.9 -0.5)
+		(end 0.9 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f32e4997-1490-4e58-b17d-eb5faf4c18f2")
+	)
+	(fp_line
+		(start -0.9 0.5)
+		(end -0.9 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "604f3872-3559-4950-887f-304c2a2e21c6")
+	)
+	(fp_line
+		(start 0.9 -0.5)
+		(end 0.9 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b90cb55-3862-4d47-96c9-3e82c41a1847")
+	)
+	(fp_line
+		(start 0.9 0.5)
+		(end -0.9 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23935ce7-64fd-4aa8-b739-758c91ef78a4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "49c9dacb-ed4b-4adc-a805-1faf44040446")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.775 0)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d6702131-5c25-465b-8825-d5a24c6a2d48")
+	)
+	(pad "2" smd rect
+		(at 0.775 0)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d9e5c9fa-e114-4a10-a823-9b54f309bf22")
+	)
+	(embedded_fonts no)
+	(model "F:/Git_Projects/JRIX-KiCad-Schematic-symbols-and-Footprint-libraries/JRIX Capacitor SMD 3D Models/C_GRMJN65C1H104GE01J.stp"
+		(offset
+			(xyz 0 -0.35 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
