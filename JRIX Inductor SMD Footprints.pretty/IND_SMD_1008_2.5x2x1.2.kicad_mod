@@ -1,0 +1,171 @@
+(footprint "IND_SMD_1008_2.5x2x1.2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "L = 2.5mm W = 2mm H = 1.2mm for Samsung CIGW Series")
+	(tags "Inductor Samsung CIGW Series")
+	(property "Reference" "L**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "807bfb07-2d2e-4d27-9cc4-144a88a8aac3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "IND_SMD_1008_2.5x2x1.2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "71cd178e-bc46-4625-b79c-3c8d50370423")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba2a49fd-1e78-4d6b-837c-fff0e8859c9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "L = 2.5mm W = 2mm H = 1.2mm for Samsung CIGW Series"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aed7abf2-7b56-4edb-8c5f-9e68316b5ff1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.1)
+		(end -1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "557bf19f-6ace-4446-ad7d-05cb9aedf42e")
+	)
+	(fp_line
+		(start -1.5 -1.1)
+		(end 1.5 -1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "49386ef3-7430-41b1-8ddf-17f400ef6901")
+	)
+	(fp_line
+		(start 1.5 -1.1)
+		(end 1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78c6622f-862d-4e2c-805c-daac4cc8ec32")
+	)
+	(fp_line
+		(start 1.5 1.1)
+		(end -1.5 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a37d91fe-d172-4a01-8e78-4e87856e3d2a")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff61c258-e241-4dd5-9332-aad20b52bc29")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f062cbf1-72d4-4517-9eaf-7339b5c0b9a3")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2a411fc-45b5-4268-9844-b82868dd50c0")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3781f02b-6d8a-4a8a-be18-44cd4287a27f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 0 0)
+		(layer "F.Fab")
+		(uuid "79554ac8-5c38-47b1-95a0-5d6cc76f1d50")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c61dcb83-6b21-4b89-8b49-1a5c7b864aed")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 0.8 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "79cb902d-e858-4b4a-9aad-f04febe2552d")
+	)
+	(embedded_fonts no)
+	(model "C:/Git_Projects/JRIX-KiCad-Schematic-symbols-and-Footprint-libraries/JRIX Inductor SMD 3D Models/L_1008_2.5x2x1.2_CIGW252012TM1R0MLE.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
