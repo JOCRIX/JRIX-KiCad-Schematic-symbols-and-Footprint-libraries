@@ -6,7 +6,7 @@
 	(descr "L=1.0mm W=0.5mm H=0.5mm")
 	(tags "Capacitor")
 	(property "Reference" "C**"
-		(at 0 -1.5 0)
+		(at 0 -1.275 0)
 		(layer "F.SilkS")
 		(uuid "713670a9-fa4a-46db-8ce8-5e4526839481")
 		(effects
@@ -54,8 +54,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.91 -0.46)
-		(end 0.91 -0.46)
+		(start -0.825 -0.375)
+		(end 0.825 -0.375)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -64,8 +64,8 @@
 		(uuid "1eaf54b3-aac6-458f-9112-7dbfb22a7dd0")
 	)
 	(fp_line
-		(start -0.91 0.46)
-		(end -0.91 -0.46)
+		(start -0.825 0.375)
+		(end -0.825 -0.375)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -74,8 +74,8 @@
 		(uuid "a978edc5-e4a3-4db8-8f8a-5f24fcc2bcab")
 	)
 	(fp_line
-		(start 0.91 -0.46)
-		(end 0.91 0.46)
+		(start 0.825 -0.375)
+		(end 0.825 0.375)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -84,8 +84,8 @@
 		(uuid "c2812e09-571b-4d10-870b-678d2891fd10")
 	)
 	(fp_line
-		(start 0.91 0.46)
-		(end -0.91 0.46)
+		(start 0.825 0.375)
+		(end -0.825 0.375)
 		(stroke
 			(width 0.05)
 			(type solid)

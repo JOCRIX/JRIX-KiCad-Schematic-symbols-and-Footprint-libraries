@@ -56,8 +56,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.91 -0.46)
-		(end 0.91 -0.46)
+		(start -0.825 -0.4)
+		(end 0.825 -0.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -66,8 +66,8 @@
 		(uuid "7769af39-14e5-4a41-82a5-3113bedbd8af")
 	)
 	(fp_line
-		(start -0.91 0.46)
-		(end -0.91 -0.46)
+		(start -0.825 0.4)
+		(end -0.825 -0.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "c305ccfe-1b9e-4b79-9efa-647ae09fb511")
 	)
 	(fp_line
-		(start 0.91 -0.46)
-		(end 0.91 0.46)
+		(start 0.825 -0.4)
+		(end 0.825 0.4)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "16eeef68-f891-43fa-bdb7-55e4cea747ae")
 	)
 	(fp_line
-		(start 0.91 0.46)
-		(end -0.91 0.46)
+		(start 0.825 0.4)
+		(end -0.825 0.4)
 		(stroke
 			(width 0.05)
 			(type solid)
