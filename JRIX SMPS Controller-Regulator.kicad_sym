@@ -1468,6 +1468,16 @@
 				)
 			)
 		)
+		(symbol "TPS62A02_1_1"
+			(text "VO = 0.6((R1/R2) + 1)"
+				(at 9.398 -17.018 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+		)
 		(embedded_fonts no)
 	)
 )

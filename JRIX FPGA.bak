@@ -944,7 +944,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.254 1.778 0)
+			(at -22.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +953,7 @@
 			)
 		)
 		(property "Value" "CCGM1A1"
-			(at 44.704 -37.592 0)
+			(at 22.098 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +962,7 @@
 			)
 		)
 		(property "Footprint" "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm"
-			(at -0.254 39.624 0)
+			(at 1.778 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +971,7 @@
 			)
 		)
 		(property "Datasheet" "https://colognechip.com/docs/ds1001-gatemate1-datasheet-2022-05.pdf"
-			(at -2.794 45.212 0)
+			(at -0.762 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -980,7 +980,7 @@
 			)
 		)
 		(property "Description" "Cologne Chip GateMate FPGA, BGA-324"
-			(at 4.064 39.37 0)
+			(at 6.096 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,8 +1562,8 @@
 		)
 		(symbol "CCGM1A1_3_1"
 			(rectangle
-				(start -13.97 -26.67)
-				(end 13.97 26.67)
+				(start -22.86 26.67)
+				(end 22.86 -26.67)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1581,7 +1581,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 22.86 0)
+				(at -26.67 22.86 0)
 				(length 3.81)
 				(name "IO_NA_A0"
 					(effects
@@ -1599,7 +1599,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 20.32 0)
+				(at -26.67 20.32 0)
 				(length 3.81)
 				(name "IO_NA_B0"
 					(effects
@@ -1617,7 +1617,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 17.78 0)
+				(at -26.67 17.78 0)
 				(length 3.81)
 				(name "IO_NA_A1"
 					(effects
@@ -1635,7 +1635,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 15.24 0)
+				(at -26.67 15.24 0)
 				(length 3.81)
 				(name "IO_NA_B1"
 					(effects
@@ -1653,7 +1653,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 12.7 0)
+				(at -26.67 12.7 0)
 				(length 3.81)
 				(name "IO_NA_A2"
 					(effects
@@ -1671,7 +1671,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 10.16 0)
+				(at -26.67 10.16 0)
 				(length 3.81)
 				(name "IO_NA_B2"
 					(effects
@@ -1689,7 +1689,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 7.62 0)
+				(at -26.67 7.62 0)
 				(length 3.81)
 				(name "IO_NA_A3"
 					(effects
@@ -1707,7 +1707,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 5.08 0)
+				(at -26.67 5.08 0)
 				(length 3.81)
 				(name "IO_NA_B3"
 					(effects
@@ -1725,7 +1725,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 0 0)
+				(at -26.67 0 0)
 				(length 3.81)
 				(name "IO_NA_A4"
 					(effects
@@ -1743,7 +1743,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -2.54 0)
+				(at -26.67 -2.54 0)
 				(length 3.81)
 				(name "IO_NA_B4"
 					(effects
@@ -1761,7 +1761,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -5.08 0)
+				(at -26.67 -5.08 0)
 				(length 3.81)
 				(name "IO_NA_A5"
 					(effects
@@ -1779,7 +1779,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -7.62 0)
+				(at -26.67 -7.62 0)
 				(length 3.81)
 				(name "IO_NA_B5"
 					(effects
@@ -1797,7 +1797,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -10.16 0)
+				(at -26.67 -10.16 0)
 				(length 3.81)
 				(name "IO_NA_A6"
 					(effects
@@ -1815,7 +1815,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -12.7 0)
+				(at -26.67 -12.7 0)
 				(length 3.81)
 				(name "IO_NA_B6"
 					(effects
@@ -1833,7 +1833,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -15.24 0)
+				(at -26.67 -15.24 0)
 				(length 3.81)
 				(name "IO_NA_A7"
 					(effects
@@ -1851,7 +1851,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -17.78 0)
+				(at -26.67 -17.78 0)
 				(length 3.81)
 				(name "IO_NA_B7"
 					(effects
@@ -1869,7 +1869,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -20.32 0)
+				(at -26.67 -20.32 0)
 				(length 3.81)
 				(name "IO_NA_A8"
 					(effects
@@ -1887,7 +1887,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -22.86 0)
+				(at -26.67 -22.86 0)
 				(length 3.81)
 				(name "IO_NA_B8"
 					(effects
@@ -1905,7 +1905,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 30.48 270)
+				(at -11.43 30.48 270)
 				(length 3.81)
 				(name "VDD_NA"
 					(effects
@@ -1922,10 +1922,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -8.89 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_NA"
 					(effects
 						(font
@@ -1941,10 +1940,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -6.35 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_NA"
 					(effects
 						(font
@@ -1960,10 +1958,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -3.81 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_NA"
 					(effects
 						(font
@@ -1979,10 +1976,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -1.27 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_NA"
 					(effects
 						(font
@@ -1999,7 +1995,79 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 30.48 270)
+				(at 1.27 30.48 270)
+				(length 3.81)
+				(name "VDD_NB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 30.48 270)
+				(length 3.81)
+				(name "VDD_NB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 30.48 270)
+				(length 3.81)
+				(name "VDD_NB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 30.48 270)
+				(length 3.81)
+				(name "VDD_NB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 30.48 270)
 				(length 3.81)
 				(name "VDD_NB"
 					(effects
@@ -2016,84 +2084,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_NB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_NB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_NB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_NB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 17.78 22.86 180)
+				(at 26.67 22.86 180)
 				(length 3.81)
 				(name "IO_NB_A0"
 					(effects
@@ -2111,7 +2103,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 20.32 180)
+				(at 26.67 20.32 180)
 				(length 3.81)
 				(name "IO_NB_B0"
 					(effects
@@ -2129,7 +2121,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 17.78 180)
+				(at 26.67 17.78 180)
 				(length 3.81)
 				(name "IO_NB_A1"
 					(effects
@@ -2147,7 +2139,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 15.24 180)
+				(at 26.67 15.24 180)
 				(length 3.81)
 				(name "IO_NB_B1"
 					(effects
@@ -2165,7 +2157,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 12.7 180)
+				(at 26.67 12.7 180)
 				(length 3.81)
 				(name "IO_NB_A2"
 					(effects
@@ -2183,7 +2175,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 10.16 180)
+				(at 26.67 10.16 180)
 				(length 3.81)
 				(name "IO_NB_B2"
 					(effects
@@ -2201,7 +2193,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 7.62 180)
+				(at 26.67 7.62 180)
 				(length 3.81)
 				(name "IO_NB_A3"
 					(effects
@@ -2219,7 +2211,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 5.08 180)
+				(at 26.67 5.08 180)
 				(length 3.81)
 				(name "IO_NB_B3"
 					(effects
@@ -2237,7 +2229,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 0 180)
+				(at 26.67 0 180)
 				(length 3.81)
 				(name "IO_NB_A4"
 					(effects
@@ -2255,7 +2247,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at 26.67 -2.54 180)
 				(length 3.81)
 				(name "IO_NB_B4"
 					(effects
@@ -2273,7 +2265,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 180)
+				(at 26.67 -5.08 180)
 				(length 3.81)
 				(name "IO_NB_A5"
 					(effects
@@ -2291,7 +2283,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -7.62 180)
+				(at 26.67 -7.62 180)
 				(length 3.81)
 				(name "IO_NB_B5"
 					(effects
@@ -2309,7 +2301,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 180)
+				(at 26.67 -10.16 180)
 				(length 3.81)
 				(name "IO_NB_A6"
 					(effects
@@ -2327,7 +2319,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 180)
+				(at 26.67 -12.7 180)
 				(length 3.81)
 				(name "IO_NB_B6"
 					(effects
@@ -2345,7 +2337,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -15.24 180)
+				(at 26.67 -15.24 180)
 				(length 3.81)
 				(name "IO_NB_A7"
 					(effects
@@ -2363,7 +2355,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -17.78 180)
+				(at 26.67 -17.78 180)
 				(length 3.81)
 				(name "IO_NB_B7"
 					(effects
@@ -2381,7 +2373,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -20.32 180)
+				(at 26.67 -20.32 180)
 				(length 3.81)
 				(name "IO_NB_A8"
 					(effects
@@ -2399,7 +2391,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -22.86 180)
+				(at 26.67 -22.86 180)
 				(length 3.81)
 				(name "IO_NB_B8"
 					(effects
@@ -2419,8 +2411,8 @@
 		)
 		(symbol "CCGM1A1_4_1"
 			(rectangle
-				(start -13.97 -26.67)
-				(end 13.97 26.67)
+				(start -22.86 26.67)
+				(end 22.86 -26.67)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2438,7 +2430,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 22.86 0)
+				(at -26.67 22.86 0)
 				(length 3.81)
 				(name "IO_EA_A0"
 					(effects
@@ -2456,7 +2448,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 20.32 0)
+				(at -26.67 20.32 0)
 				(length 3.81)
 				(name "IO_EA_B0"
 					(effects
@@ -2474,7 +2466,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 17.78 0)
+				(at -26.67 17.78 0)
 				(length 3.81)
 				(name "IO_EA_A1"
 					(effects
@@ -2492,7 +2484,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 15.24 0)
+				(at -26.67 15.24 0)
 				(length 3.81)
 				(name "IO_EA_B1"
 					(effects
@@ -2510,7 +2502,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 12.7 0)
+				(at -26.67 12.7 0)
 				(length 3.81)
 				(name "IO_EA_A2"
 					(effects
@@ -2528,7 +2520,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 10.16 0)
+				(at -26.67 10.16 0)
 				(length 3.81)
 				(name "IO_EA_B2"
 					(effects
@@ -2546,7 +2538,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 7.62 0)
+				(at -26.67 7.62 0)
 				(length 3.81)
 				(name "IO_EA_A3"
 					(effects
@@ -2564,7 +2556,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 5.08 0)
+				(at -26.67 5.08 0)
 				(length 3.81)
 				(name "IO_EA_B3"
 					(effects
@@ -2582,7 +2574,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 0 0)
+				(at -26.67 0 0)
 				(length 3.81)
 				(name "IO_EA_A4"
 					(effects
@@ -2600,7 +2592,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -2.54 0)
+				(at -26.67 -2.54 0)
 				(length 3.81)
 				(name "IO_EA_B4"
 					(effects
@@ -2618,7 +2610,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -5.08 0)
+				(at -26.67 -5.08 0)
 				(length 3.81)
 				(name "IO_EA_A5"
 					(effects
@@ -2636,7 +2628,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -7.62 0)
+				(at -26.67 -7.62 0)
 				(length 3.81)
 				(name "IO_EA_B5"
 					(effects
@@ -2654,7 +2646,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -10.16 0)
+				(at -26.67 -10.16 0)
 				(length 3.81)
 				(name "IO_EA_A6"
 					(effects
@@ -2672,7 +2664,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -12.7 0)
+				(at -26.67 -12.7 0)
 				(length 3.81)
 				(name "IO_EA_B6"
 					(effects
@@ -2690,7 +2682,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -15.24 0)
+				(at -26.67 -15.24 0)
 				(length 3.81)
 				(name "IO_EA_A7"
 					(effects
@@ -2708,7 +2700,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -17.78 0)
+				(at -26.67 -17.78 0)
 				(length 3.81)
 				(name "IO_EA_B7"
 					(effects
@@ -2726,7 +2718,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -20.32 0)
+				(at -26.67 -20.32 0)
 				(length 3.81)
 				(name "IO_EA_A8"
 					(effects
@@ -2744,7 +2736,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -22.86 0)
+				(at -26.67 -22.86 0)
 				(length 3.81)
 				(name "IO_EA_B8"
 					(effects
@@ -2762,7 +2754,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 30.48 270)
+				(at -11.43 30.48 270)
 				(length 3.81)
 				(name "VDD_EA"
 					(effects
@@ -2779,10 +2771,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -8.89 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_EA"
 					(effects
 						(font
@@ -2798,10 +2789,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -6.35 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_EA"
 					(effects
 						(font
@@ -2817,10 +2807,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -3.81 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_EA"
 					(effects
 						(font
@@ -2836,10 +2825,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -1.27 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_EA"
 					(effects
 						(font
@@ -2856,7 +2844,79 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 30.48 270)
+				(at 1.27 30.48 270)
+				(length 3.81)
+				(name "VDD_EB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 30.48 270)
+				(length 3.81)
+				(name "VDD_EB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 30.48 270)
+				(length 3.81)
+				(name "VDD_EB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 30.48 270)
+				(length 3.81)
+				(name "VDD_EB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 30.48 270)
 				(length 3.81)
 				(name "VDD_EB"
 					(effects
@@ -2873,84 +2933,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_EB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_EB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_EB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_EB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 17.78 22.86 180)
+				(at 26.67 22.86 180)
 				(length 3.81)
 				(name "IO_EB_A0"
 					(effects
@@ -2968,7 +2952,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 20.32 180)
+				(at 26.67 20.32 180)
 				(length 3.81)
 				(name "IO_EB_B0"
 					(effects
@@ -2986,7 +2970,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 17.78 180)
+				(at 26.67 17.78 180)
 				(length 3.81)
 				(name "IO_EB_A1"
 					(effects
@@ -3004,7 +2988,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 15.24 180)
+				(at 26.67 15.24 180)
 				(length 3.81)
 				(name "IO_EB_B1"
 					(effects
@@ -3022,7 +3006,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 12.7 180)
+				(at 26.67 12.7 180)
 				(length 3.81)
 				(name "IO_EB_A2"
 					(effects
@@ -3040,7 +3024,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 10.16 180)
+				(at 26.67 10.16 180)
 				(length 3.81)
 				(name "IO_EB_B2"
 					(effects
@@ -3058,7 +3042,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 7.62 180)
+				(at 26.67 7.62 180)
 				(length 3.81)
 				(name "IO_EB_A3"
 					(effects
@@ -3076,7 +3060,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 5.08 180)
+				(at 26.67 5.08 180)
 				(length 3.81)
 				(name "IO_EB_B3"
 					(effects
@@ -3094,7 +3078,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 0 180)
+				(at 26.67 0 180)
 				(length 3.81)
 				(name "IO_EB_A4"
 					(effects
@@ -3112,7 +3096,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at 26.67 -2.54 180)
 				(length 3.81)
 				(name "IO_EB_B4"
 					(effects
@@ -3130,7 +3114,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 180)
+				(at 26.67 -5.08 180)
 				(length 3.81)
 				(name "IO_EB_A5"
 					(effects
@@ -3148,7 +3132,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -7.62 180)
+				(at 26.67 -7.62 180)
 				(length 3.81)
 				(name "IO_EB_B5"
 					(effects
@@ -3166,7 +3150,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 180)
+				(at 26.67 -10.16 180)
 				(length 3.81)
 				(name "IO_EB_A6"
 					(effects
@@ -3184,7 +3168,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 180)
+				(at 26.67 -12.7 180)
 				(length 3.81)
 				(name "IO_EB_B6"
 					(effects
@@ -3202,7 +3186,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -15.24 180)
+				(at 26.67 -15.24 180)
 				(length 3.81)
 				(name "IO_EB_A7"
 					(effects
@@ -3220,7 +3204,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -17.78 180)
+				(at 26.67 -17.78 180)
 				(length 3.81)
 				(name "IO_EB_B7"
 					(effects
@@ -3238,7 +3222,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -20.32 180)
+				(at 26.67 -20.32 180)
 				(length 3.81)
 				(name "IO_EB_A8"
 					(effects
@@ -3256,7 +3240,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -22.86 180)
+				(at 26.67 -22.86 180)
 				(length 3.81)
 				(name "IO_EB_B8"
 					(effects
@@ -3276,8 +3260,8 @@
 		)
 		(symbol "CCGM1A1_5_1"
 			(rectangle
-				(start -13.97 -26.67)
-				(end 13.97 26.67)
+				(start -22.86 26.67)
+				(end 22.86 -26.67)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3295,7 +3279,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 22.86 0)
+				(at -26.67 22.86 0)
 				(length 3.81)
 				(name "IO_SA_A0"
 					(effects
@@ -3313,7 +3297,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 20.32 0)
+				(at -26.67 20.32 0)
 				(length 3.81)
 				(name "IO_SA_B0"
 					(effects
@@ -3331,7 +3315,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 17.78 0)
+				(at -26.67 17.78 0)
 				(length 3.81)
 				(name "IO_SA_A1"
 					(effects
@@ -3349,7 +3333,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 15.24 0)
+				(at -26.67 15.24 0)
 				(length 3.81)
 				(name "IO_SA_B1"
 					(effects
@@ -3367,7 +3351,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 12.7 0)
+				(at -26.67 12.7 0)
 				(length 3.81)
 				(name "IO_SA_A2"
 					(effects
@@ -3385,7 +3369,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 10.16 0)
+				(at -26.67 10.16 0)
 				(length 3.81)
 				(name "IO_SA_B2"
 					(effects
@@ -3403,7 +3387,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 7.62 0)
+				(at -26.67 7.62 0)
 				(length 3.81)
 				(name "IO_SA_A3"
 					(effects
@@ -3421,7 +3405,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 5.08 0)
+				(at -26.67 5.08 0)
 				(length 3.81)
 				(name "IO_SA_B3"
 					(effects
@@ -3439,7 +3423,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 0 0)
+				(at -26.67 0 0)
 				(length 3.81)
 				(name "IO_SA_A4"
 					(effects
@@ -3457,7 +3441,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -2.54 0)
+				(at -26.67 -2.54 0)
 				(length 3.81)
 				(name "IO_SA_B4"
 					(effects
@@ -3475,7 +3459,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -5.08 0)
+				(at -26.67 -5.08 0)
 				(length 3.81)
 				(name "IO_SA_A5"
 					(effects
@@ -3493,7 +3477,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -7.62 0)
+				(at -26.67 -7.62 0)
 				(length 3.81)
 				(name "IO_SA_B5"
 					(effects
@@ -3511,7 +3495,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -10.16 0)
+				(at -26.67 -10.16 0)
 				(length 3.81)
 				(name "IO_SA_A6"
 					(effects
@@ -3529,7 +3513,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -12.7 0)
+				(at -26.67 -12.7 0)
 				(length 3.81)
 				(name "IO_SA_B6"
 					(effects
@@ -3547,7 +3531,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -15.24 0)
+				(at -26.67 -15.24 0)
 				(length 3.81)
 				(name "IO_SA_A7"
 					(effects
@@ -3565,7 +3549,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -17.78 0)
+				(at -26.67 -17.78 0)
 				(length 3.81)
 				(name "IO_SA_B7"
 					(effects
@@ -3583,7 +3567,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -20.32 0)
+				(at -26.67 -20.32 0)
 				(length 3.81)
 				(name "IO_SA_A8"
 					(effects
@@ -3601,7 +3585,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -22.86 0)
+				(at -26.67 -22.86 0)
 				(length 3.81)
 				(name "IO_SA_B8"
 					(effects
@@ -3618,10 +3602,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -11.43 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_SA"
 					(effects
 						(font
@@ -3638,7 +3621,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 30.48 270)
+				(at -8.89 30.48 270)
 				(length 3.81)
 				(name "VDD_SA"
 					(effects
@@ -3655,10 +3638,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -6.35 30.48 270)
 				(length 3.81)
-				(hide yes)
 				(name "VDD_SA"
 					(effects
 						(font
@@ -3674,29 +3656,9 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -2.54 30.48 270)
+			(pin power_in line
+				(at -3.81 30.48 270)
 				(length 3.81)
-				(hide yes)
-				(name "VDD_SA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "U6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
 				(name "VDD_SA"
 					(effects
 						(font
@@ -3713,7 +3675,97 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 30.48 270)
+				(at -1.27 30.48 270)
+				(length 3.81)
+				(name "VDD_SA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 1.27 30.48 270)
+				(length 3.81)
+				(name "VDD_SB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 3.81 30.48 270)
+				(length 3.81)
+				(name "VDD_SB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 30.48 270)
+				(length 3.81)
+				(name "VDD_SB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 8.89 30.48 270)
+				(length 3.81)
+				(name "VDD_SB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 30.48 270)
 				(length 3.81)
 				(name "VDD_SB"
 					(effects
@@ -3730,84 +3782,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_SB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_SB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_SB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 30.48 270)
-				(length 3.81)
-				(hide yes)
-				(name "VDD_SB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
-				(at 17.78 22.86 180)
+				(at 26.67 22.86 180)
 				(length 3.81)
 				(name "IO_SB_A0"
 					(effects
@@ -3825,7 +3801,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 20.32 180)
+				(at 26.67 20.32 180)
 				(length 3.81)
 				(name "IO_SB_B0"
 					(effects
@@ -3843,7 +3819,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 17.78 180)
+				(at 26.67 17.78 180)
 				(length 3.81)
 				(name "IO_SB_A1"
 					(effects
@@ -3861,7 +3837,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 15.24 180)
+				(at 26.67 15.24 180)
 				(length 3.81)
 				(name "IO_SB_B1"
 					(effects
@@ -3879,7 +3855,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 12.7 180)
+				(at 26.67 12.7 180)
 				(length 3.81)
 				(name "IO_SB_A2"
 					(effects
@@ -3897,7 +3873,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 10.16 180)
+				(at 26.67 10.16 180)
 				(length 3.81)
 				(name "IO_SB_B2"
 					(effects
@@ -3915,7 +3891,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 7.62 180)
+				(at 26.67 7.62 180)
 				(length 3.81)
 				(name "IO_SB_A3"
 					(effects
@@ -3933,7 +3909,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 5.08 180)
+				(at 26.67 5.08 180)
 				(length 3.81)
 				(name "IO_SB_B3"
 					(effects
@@ -3951,7 +3927,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 0 180)
+				(at 26.67 0 180)
 				(length 3.81)
 				(name "IO_SB_A4"
 					(effects
@@ -3969,7 +3945,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at 26.67 -2.54 180)
 				(length 3.81)
 				(name "IO_SB_B4"
 					(effects
@@ -3987,7 +3963,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 180)
+				(at 26.67 -5.08 180)
 				(length 3.81)
 				(name "CLK3/IO_SB_A5"
 					(effects
@@ -4005,7 +3981,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -7.62 180)
+				(at 26.67 -7.62 180)
 				(length 3.81)
 				(name "IO_SB_B5"
 					(effects
@@ -4023,7 +3999,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 180)
+				(at 26.67 -10.16 180)
 				(length 3.81)
 				(name "CLK2/IO_SB_A6"
 					(effects
@@ -4041,7 +4017,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 180)
+				(at 26.67 -12.7 180)
 				(length 3.81)
 				(name "IO_SB_B6"
 					(effects
@@ -4059,7 +4035,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -15.24 180)
+				(at 26.67 -15.24 180)
 				(length 3.81)
 				(name "CLK1/IO_SB_A7"
 					(effects
@@ -4077,7 +4053,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -17.78 180)
+				(at 26.67 -17.78 180)
 				(length 3.81)
 				(name "IO_SB_B7"
 					(effects
@@ -4095,7 +4071,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -20.32 180)
+				(at 26.67 -20.32 180)
 				(length 3.81)
 				(name "CLK0/IO_SB_A8"
 					(effects
@@ -4113,7 +4089,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -22.86 180)
+				(at 26.67 -22.86 180)
 				(length 3.81)
 				(name "IO_SB_B8"
 					(effects

@@ -9728,7 +9728,7 @@
 				)
 			)
 			(pin passive line
-				(at 158.75 -3.81 180)
+				(at 158.75 -7.62 180)
 				(length 5.08)
 				(name "OF2_1_P"
 					(effects
@@ -9746,7 +9746,7 @@
 				)
 			)
 			(pin passive line
-				(at 158.75 -6.35 180)
+				(at 158.75 -10.16 180)
 				(length 5.08)
 				(name "OF2_1_N"
 					(effects
