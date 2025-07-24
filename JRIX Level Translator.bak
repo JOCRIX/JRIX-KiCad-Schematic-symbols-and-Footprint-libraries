@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "NXU0104"
-			(at 15.24 -32.004 0)
+			(at 15.24 -27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -114,7 +114,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -36.83 90)
+				(at 10.16 -29.21 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -153,7 +153,7 @@
 		(symbol "NXU0104BZZ_0_1"
 			(rectangle
 				(start 0 6.35)
-				(end 19.304 -30.48)
+				(end 19.304 -26.67)
 				(stroke
 					(width 0)
 					(type default)
@@ -315,7 +315,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 1.27 -36.83 90)
+				(at 1.27 -29.21 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -334,7 +334,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 3.81 -36.83 90)
+				(at 3.81 -29.21 90)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -353,7 +353,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -36.83 90)
+				(at 7.62 -29.21 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
