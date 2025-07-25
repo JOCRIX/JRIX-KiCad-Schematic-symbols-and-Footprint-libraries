@@ -151,17 +151,6 @@
 			)
 		)
 		(symbol "NXU0104BZZ_0_1"
-			(rectangle
-				(start 0 0)
-				(end 19.304 -33.02)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 3.81 -12.7) (xy 5.08 -12.7)
@@ -445,6 +434,17 @@
 			)
 		)
 		(symbol "NXU0104BZZ_1_1"
+			(rectangle
+				(start 0 0)
+				(end 19.304 -33.02)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy 2.794 -7.62) (xy -0.254 -7.62)
