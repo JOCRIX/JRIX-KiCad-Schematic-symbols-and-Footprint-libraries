@@ -988,6 +988,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Cologne Chip"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CCGM1A1-BGA324"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 " "Digikey"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" "4158-CCGM1A1-BGA324-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_locked" ""
 			(at 0 0 0)
 			(effects
@@ -996,7 +1032,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "GateMate FPGA"
+		(property "ki_keywords" "GateMate FPGA CCGM1A1, 324 BGA"
 			(at 0 0 0)
 			(effects
 				(font
