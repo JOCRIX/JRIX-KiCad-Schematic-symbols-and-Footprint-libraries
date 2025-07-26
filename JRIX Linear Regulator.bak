@@ -658,17 +658,6 @@
 			)
 		)
 		(symbol "LT3042EDD_0_1"
-			(rectangle
-				(start 26.67 -16.256)
-				(end 63.5 -45.72)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 29.718 -17.526) (xy 29.718 -20.574) (xy 32.766 -20.574)
@@ -748,6 +737,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "LT3042EDD_1_1"
+			(rectangle
+				(start 26.67 -16.256)
+				(end 63.5 -45.72)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

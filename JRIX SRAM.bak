@@ -238,7 +238,7 @@
 			)
 		)
 		(property "Footprint" "JRIX BGA Footprints:FBGA-48_6x10x1.1_Layout-6x8_P0.75"
-			(at 9.652 -19.558 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
