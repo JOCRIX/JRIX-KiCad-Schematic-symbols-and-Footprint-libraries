@@ -1143,7 +1143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JRIX Capacitor SMD Footprints:MLCC_SMD_0603_1.6x0.8x1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1787,7 +1787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JRIX Capacitor SMD Footprints:MLCC_SMD_0704_1.8x1x0.6"
 			(at 0 0 0)
 			(effects
 				(font
