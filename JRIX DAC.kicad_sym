@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JRIX QFN Footprints:VFQFN-32_5x5x1_P0.5_ExposedPad_32-LFCSP-5x5x0.95_P0.5_ExposedPad_AnalogDevices"
+		(property "Footprint" "JRIX QFN Footprints:VFQFN-32_5x5x1_P0.5_ExposedPad-ThermalVias_32-LFCSP-5x5x0.95_P0.5_ExposedPad_AnalogDevices_1"
 			(at 22.352 -20.574 0)
 			(effects
 				(font
@@ -109,15 +109,6 @@
 			)
 		)
 		(property "ki_keywords" "16-bit DAC, 1ch, Current output, 33 MUPS, Multispan, Multi-IO SPI DAC"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "CP-32-30_ADI CP-32-30_ADI-M CP-32-30_ADI-L"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4092,7 +4083,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 52.07 -2.54 180)
+				(at 52.07 -3.81 180)
 				(length 2.54)
 				(name "RFB1__0"
 					(effects
@@ -4110,7 +4101,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 52.07 -5.08 180)
+				(at 52.07 -7.62 180)
 				(length 2.54)
 				(name "RFB2__0"
 					(effects
@@ -4128,7 +4119,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 52.07 -7.62 180)
+				(at 52.07 -11.43 180)
 				(length 2.54)
 				(name "RFB4__0"
 					(effects
@@ -4204,7 +4195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSOP-28"
+		(property "Footprint" "JRIX SOP Footprints:SSOP-28_5.3x10.2mm_P0.65mm"
 			(at 36.068 6.35 0)
 			(effects
 				(font
@@ -4224,6 +4215,42 @@
 		)
 		(property "Description" "Digital to Analog Converters - DAC 16-B, 50Msps DAC"
 			(at 34.544 5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Analog Devices"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " LTC1668CG#PBF"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1 Part Number" ":584-LTC1668CG#PBF"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

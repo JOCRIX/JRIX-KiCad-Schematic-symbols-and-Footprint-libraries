@@ -1467,6 +1467,24 @@
 					)
 				)
 			)
+			(pin output line
+				(at 17.78 21.59 180)
+				(length 2.54)
+				(name "ILIMP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 17.78 11.43 180)
 				(length 2.54)
@@ -1496,24 +1514,6 @@
 					)
 				)
 				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 6.35 180)
-				(length 2.54)
-				(name "ILIMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1731,7 +1731,7 @@
 		(symbol "LT3097ADJC#PBF_1_1"
 			(rectangle
 				(start -16.51 24.765)
-				(end 15.24 -26.67)
+				(end 15.24 -24.13)
 				(stroke
 					(width 0)
 					(type solid)

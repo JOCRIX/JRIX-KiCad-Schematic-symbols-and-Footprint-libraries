@@ -968,7 +968,7 @@
 				)
 			)
 		)
-		(property "Value" "10k 1%"
+		(property "Value" "56k2 1%"
 			(at 2.032 0 90)
 			(effects
 				(font
@@ -1768,6 +1768,61 @@
 			)
 		)
 		(property "ki_keywords" "2k 0.1% 130mW 50V 25PPM/K 0402 Vishay TNPWe3-series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "TNPW040249K9BYEP"
+		(extends "TNPW0402100RBYEP")
+		(property "Reference" "R"
+			(at -1.778 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R 0.1%"
+			(at 2.032 0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100R 0.1% 130mW 50V 10PPM/K 0402 Vishay TNPWe3-series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "100R 0.1% 130mW 50V 10PPM/K 0402 Vishay TNPWe3-series"
 			(at 0 0 0)
 			(effects
 				(font
