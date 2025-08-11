@@ -961,7 +961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_BGA:BGA-324_15x15mm_Layout18x18_P0.8mm"
+		(property "Footprint" "JRIX BGA Footprints:BGA-324_15x15mm_Layout18x18_P0.8mm"
 			(at 42.418 -3.81 0)
 			(effects
 				(font
